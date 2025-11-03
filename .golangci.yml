@@ -384,8 +384,8 @@ linters:
             # Go standard library
             - $gostd
 
-            # TODO: Update depguard configuration for this project.
-            - github.com/ianlewis/repo-template-go
+            # This project.
+            - github.com/ianlewis/quietus
           deny:
             - pkg: reflect
               desc: Please don't use reflect package
@@ -399,11 +399,11 @@ linters:
             # Go standard library
             - $gostd
 
-            # TODO: Update depguard configuration for this project.
-            - github.com/ianlewis/repo-template-go
+            # This project.
+            - github.com/ianlewis/quietus
 
-            # TODO: Add dependencies.
-            # - "github.com/google/go-cmp/cmp"
+            # Test dependencies.
+            - "github.com/google/go-cmp/cmp"
           deny:
             - pkg: reflect
               desc: Use go-cmp instead.

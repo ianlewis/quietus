@@ -58,8 +58,6 @@ representative at an online or offline event.
 
 ## Enforcement
 
-<!-- TODO: update Code of Conduct contact email -->
-
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
 [`ian@ianlewis.org`](mailto:ian@ianlewis.org). All complaints will be reviewed

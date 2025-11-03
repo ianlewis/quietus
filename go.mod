@@ -1,4 +1,3 @@
-// TODO: Recreate go.mod
-module github.com/ianlewis/repo-template-go
+module github.com/ianlewis/quietus
 
-go 1.24.1
+go 1.24.9

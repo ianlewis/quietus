@@ -33,17 +33,12 @@ jobs:
     strategy:
       matrix:
         go-version:
-          # TODO: Add other Go versions here.
-          # NOTE: Go 1.24 is required for tool dependencies.
           # NOTE: The Go team only supports the current and one previous
           #       version.
           - "1.25"
           - "1.24"
         os:
           - ubuntu-latest
-          # TODO: Enable tests for relevant OSes.
-          # - macos-latest
-          # - windows-latest
 
     runs-on: ${{ matrix.os }}
     if: ${{ always() }}
